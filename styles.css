@@ -1,5 +1,299 @@
+
+
 body {
-    background: red;
-    height: 100vh;
+    background: #0828cc;
+    min-height: 100vh;
     width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    
 }
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    background: #0828cc;
+    opacity: 0.9;
+
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.logo-text {
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+a {
+    color:white;
+    padding: 5px 30px;
+    text-decoration: none;
+}
+
+.subscribe-button {
+    border: white;
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 30px;
+    margin-bottom: 5px;
+    height: 7vh;
+    width: 25vh;
+    border-radius:  50px 50px 50px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 400px;
+    height: 50px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 15px;   
+}
+
+.home {
+
+    width: 100%;
+    height: 100vh;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 50px;
+    padding: 20px 0px;
+}
+
+.home-info {
+    font-size: 15px;
+    width: 90vh;
+    line-height: 2;
+    text-align: center;
+}
+
+.explore-button {
+    margin-top: 20px;
+    color: #0828cc;
+    background-color: white;
+    width: 28vh;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    border-radius:  50px 50px 50px 50px;
+    
+}
+
+.scroll {
+    margin-top: 60px;
+}
+
+.social-media-container {
+    color: red;
+    height: 223px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    margin-left: 474px;
+    margin-top: 232px;
+}
+
+
+
+.books {
+    width: 100%;
+    height: 100vh;
+}
+
+.books-content {
+    color: black;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+h6 {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.books-content > p {
+    font-size: 15px;
+    width: 90vh;
+    line-height: 2;
+    text-align: center;
+}
+
+.book1 {
+    margin-top: 15px;
+    color: black;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.book1-img {
+    width: 330px;
+    height: 407px;
+    margin-right: 35px;
+    margin-top: 25px;
+}
+
+.book1-content {
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+.book-title {
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.author-name {
+    text-align: right;
+    padding: 20px 0px;
+    font-size: 13px;
+}
+
+.book-count {
+    padding-bottom: 30px;
+}
+
+.book-description {
+    font-size: 15px;
+    line-height: 2;
+}
+
+.read-book-button {
+    color: white;
+    background-color: #0828cc;
+    width: 28vh;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    border-radius:  50px 50px 50px 50px;
+    margin-top: 15px;
+}
+
+.book-highlight {
+    color:#0828cc;
+}
+
+.book2 {
+    margin-top: 15px;
+    color: black;
+    background: white;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.book2-img {
+    width: 330px;
+    height: 407px;
+    margin-left: 60px;
+    margin-top: 25px;
+}
+
+.book2-content {
+    width: 25%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+
+
+
+.authors {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.subscribe-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.end-of-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
