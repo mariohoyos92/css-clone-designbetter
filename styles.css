@@ -267,17 +267,90 @@ h6 {
 }
 
 
-
-
-
 .authors {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    background: white;
+    margin-top: 15px;
     width: 100%;
     height: 100vh;
 }
+
+h3 {
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.author-container {
+    color: black;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding: 50px 50px;
+}
+
+.avatar {
+    width: 75px;
+    height: 75px;
+
+}
+
+.author-bio {
+    width: 40%;
+}
+
+.bio-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.author-title {
+    color: grey;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.author-background {
+    font-size: 15px;
+    line-height: 2;
+    width: 80%;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .subscribe-page {
     display: flex;
